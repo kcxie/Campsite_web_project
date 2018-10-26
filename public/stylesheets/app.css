@@ -1,0 +1,29 @@
+img{
+    width:100%;
+    height:100%;
+}
+
+.dancename{
+    margin:0;
+}
+
+body{
+    font-size: x-small;
+}
+.img-thumbnail{
+    padding: 0;
+}
+
+.img-thumbnail .caption-full{
+    padding:  9px;
+}
+
+.delete-form{
+    display:inline;
+}
+
+#commentdelete{
+    margin-bottom: 10px;
+}
+
+#commentedit{margin-bottom: 10px;}

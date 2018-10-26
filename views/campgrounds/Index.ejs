@@ -1,0 +1,36 @@
+<% include ../partials/header %>
+
+
+
+
+
+<div class="container mt-4"> 
+<header class="jumbotron">
+  <div class="container"> 
+    <h1> Dance Camp moments</h1>
+    <p>Please feel free to share any DANCING moments you like!</p>
+    <p>
+      <a class="btn btn-primary btn-lg" href="/campgrounds/new">Add New Dance Competition</a>
+    </p>
+  </div>
+ 
+</header>
+  <div class="row text-center align-items-center" style="display:flex; flex-wrap: wrap;">
+      <% campgrounds.forEach(function(campground){%>
+          <div class="col-md-3 col-sm-6">
+            <div class="img-thumbnail" alt="Responsive image">
+               <img src="<%= campground.image %>">
+            
+                <div class="figure-caption mx-auto">
+                  <p class="dancename"><%= campground.name %></p>
+                </div>
+                <p>
+                    <a href="/campgrounds/<%= campground._id %>" class="btn btn-primary btn-sm">More Info</a>
+                </p>
+            </div>
+          </div>
+      <% }); %>
+    </div>
+  </div>
+
+<% include ../partials/footer %>
