@@ -1,7 +1,7 @@
 <p>Try out the Web Application -> <a href="https://vast-shelf-24861.herokuapp.com/"> Campsite</a></p>
 <p>
-● Build traditional Restful routes with Express framework.
-● Code with Passport.js to implement User Authentication and registration.
+● Build traditional Restful routes with Express framework.<br>
+● Code with Passport.js to implement User Authentication and registration.<br>
 ● Construct User Interface/layout with Boostrap and connect-flash package,
 and MongoDB database with Mongoose to display Images and comments from users’ posted camping sites.
 </p>
